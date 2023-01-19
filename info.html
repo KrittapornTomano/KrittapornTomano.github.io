@@ -2,23 +2,35 @@
 <html>
 
 <body >
+  
     <div class="header">
-        <p>Header</p>
+      <h1 style="color: rgb(23, 119, 204);">language ability</h1>
     </div>
-    <h1 class="text">language ability</h1><br>
-    <div class="right">
-        <p>Right</p>
-    </div>
+  
+   
     
 </body>
 <div class="text">
-    <span>Javascript</span><br>
-    <span>html,css</span><br>
+    <img src="JS.com.png" width="300" height="300">
+        
+    <img src="HTML.com.png" width="300" height="300">
+        
+    <img src="CSS.com.png" width="300" height="300">
+        
 </div>
-<div class="footer">
-    <p>footer</p>
+<div class="header">
+    <h1 style="color: rgb(23, 119, 204); text-align: center">Framework</h1>
 </div>
+<div class="text">
+  <img src="VUE.png" width="280" height="240">
 
+  <img src="AU.png" width="280" height="280">
+
+  <img src="Express.png" width="350" height="300">
+</div>
+<div >
+   
+</div>
 </html>
 
 
@@ -40,20 +52,31 @@ body{
 }
 .text{
     color: rgb(65, 164, 250);
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+.text1{
+    color: rgb(65, 164, 250);
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    text-align:center;
+    
+    
 }
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(125, 122, 122);
+  background-color: rgb(85, 82, 82);
   color: white;
   text-align: center;
 }
 .header {
-  padding: 30px;
+  padding: 100px;
   text-align: center;
-  background: #717776;
   color: white;
   font-size: 30px;
 }
@@ -65,5 +88,34 @@ body{
   background: #416c65;
 
 }
-
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.button {
+  background-color: #4b71fce6; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 12px;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+}
+  .button:hover {
+    background-color: #fefefe;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    border: 4px solid rgba(40, 138, 249, 0.993);
+  }
+  .button:active {
+  background-color: #ba48da;
+  color: white;
+  box-shadow: 0 2px rgb(18, 18, 18);
+  transform: translateY(4px);
+  }
 </style>
