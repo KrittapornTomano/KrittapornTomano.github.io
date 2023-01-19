@@ -2,12 +2,21 @@
 <html>
 
 <body >
+    <div class="header">
+        <p>Header</p>
+    </div>
     <h1 class="text">language ability</h1><br>
+    <div class="right">
+        <p>Right</p>
+    </div>
     
 </body>
 <div class="text">
     <span>Javascript</span><br>
     <span>html,css</span><br>
+</div>
+<div class="footer">
+    <p>footer</p>
 </div>
 
 </html>
@@ -27,9 +36,34 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #212122;
+  top: 50px;
 }
 .text{
     color: rgb(65, 164, 250);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(125, 122, 122);
+  color: white;
+  text-align: center;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #717776;
+  color: white;
+  font-size: 30px;
+}
+.right {
+    position:fixed;
+  right: 0;
+  width: 150px;
+  height: 68%;
+  background: #416c65;
+
 }
 
 </style>
