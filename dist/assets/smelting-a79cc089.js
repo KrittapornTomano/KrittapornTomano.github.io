@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as s}from"./index-5c40d3c1.js";const t={},r={style:{"background-image":"url('/src/assets/Dirt.jpg')","background-size":"cover",height:"100vh"}};function o(n,a){return c(),s("div",r)}const i=e(t,[["render",o]]);export{i as default};
