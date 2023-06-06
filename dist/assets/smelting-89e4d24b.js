@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as s}from"./index-4671952d.js";const t={},o={style:{"background-image":"url('/src/assets/222.png')","background-size":"cover",height:"100vh"}};function r(n,a){return c(),s("div",o)}const i=e(t,[["render",r]]);export{i as default};
